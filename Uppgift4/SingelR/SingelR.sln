@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOT-Client", "IOT-Client\IOT-Client.csproj", "{160D8C12-1D59-4DE4-9014-D24B6F32CBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server-API", "Server-API\Server-API.csproj", "{D35AC06C-4A26-43A0-8A69-18CFF8071030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160D8C12-1D59-4DE4-9014-D24B6F32CBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160D8C12-1D59-4DE4-9014-D24B6F32CBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160D8C12-1D59-4DE4-9014-D24B6F32CBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160D8C12-1D59-4DE4-9014-D24B6F32CBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35AC06C-4A26-43A0-8A69-18CFF8071030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35AC06C-4A26-43A0-8A69-18CFF8071030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35AC06C-4A26-43A0-8A69-18CFF8071030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35AC06C-4A26-43A0-8A69-18CFF8071030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B883745B-834C-49D7-A26F-CEA35A7401AC}
+	EndGlobalSection
+EndGlobal
