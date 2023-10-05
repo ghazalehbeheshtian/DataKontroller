@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOT-Client", "IOT-Client\IO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server-API", "Server-API\Server-API.csproj", "{D35AC06C-4A26-43A0-8A69-18CFF8071030}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-MVC", "WebApplication-MVC\WebApplication-MVC.csproj", "{4851FF4B-B212-49F0-AF51-35435DD4BD81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D35AC06C-4A26-43A0-8A69-18CFF8071030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D35AC06C-4A26-43A0-8A69-18CFF8071030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D35AC06C-4A26-43A0-8A69-18CFF8071030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4851FF4B-B212-49F0-AF51-35435DD4BD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4851FF4B-B212-49F0-AF51-35435DD4BD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4851FF4B-B212-49F0-AF51-35435DD4BD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4851FF4B-B212-49F0-AF51-35435DD4BD81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
