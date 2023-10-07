@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Xw9t1IIG+zVGixUk6XuS7IP/lJKZF9vwsmzk9X60Bt0oA0eoAMrh9d9X6l6wCX0AR3PYkUKTfq5SELKHN3zcCA==",
+  "dgSpecHash": "AB1aTqiSc2MuLG7lJnbIdZY6nx6f0bm725o9XepWYwaHJIQmbcNmsJrharsa3Lp5mrXIJQsGdQi5AHUDNRz5RA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift1\\TCP\\TCP-Server\\TCP-Server.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

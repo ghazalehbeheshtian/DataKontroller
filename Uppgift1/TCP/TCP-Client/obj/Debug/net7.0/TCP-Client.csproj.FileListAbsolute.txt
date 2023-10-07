@@ -1,0 +1,17 @@
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\bin\Debug\net7.0\TCP-Client.exe
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\bin\Debug\net7.0\TCP-Client.deps.json
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\bin\Debug\net7.0\TCP-Client.runtimeconfig.json
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\bin\Debug\net7.0\TCP-Client.dll
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\bin\Debug\net7.0\TCP-Client.pdb
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.csproj.AssemblyReference.cache
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.AssemblyInfoInputs.cache
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.AssemblyInfo.cs
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.csproj.CoreCompileInputs.cache
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.csproj.CopyComplete
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.dll
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\refint\TCP-Client.dll
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.pdb
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\TCP-Client.genruntimeconfig.cache
+C:\Users\Ghazeleh Beheshtian\Desktop\Data\Uppgift1\TCP\TCP-Client\obj\Debug\net7.0\ref\TCP-Client.dll

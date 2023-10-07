@@ -1,8 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "GN3rYICiAbi+3InlB/e4jQq2QtflqDelIq3/WQO5l17UBQx3J8vSWACHPii8GiotEMF1Krlb1rJP4dtmuu/ObQ==",
+  "dgSpecHash": "5CoXvwE7S41F8UT9xuajorWHWb1k+tFJrI5ofh1RNbrl8eRbpkkai7EguriuxkN8oWft0bVKfQekBwB8sjrFEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.11\\microsoft.aspnetcore.connections.abstractions.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\7.0.11\\microsoft.aspnetcore.http.connections.client.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\7.0.11\\microsoft.aspnetcore.http.connections.common.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\7.0.11\\microsoft.aspnetcore.signalr.client.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\7.0.11\\microsoft.aspnetcore.signalr.client.core.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\7.0.11\\microsoft.aspnetcore.signalr.common.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\7.0.11\\microsoft.aspnetcore.signalr.protocols.json.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.features\\7.0.11\\microsoft.extensions.features.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\test-singalr\\1.0.1\\test-singalr.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

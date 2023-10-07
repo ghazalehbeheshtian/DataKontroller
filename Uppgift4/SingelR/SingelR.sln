@@ -5,9 +5,14 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOT-Client", "IOT-Client\IOT-Client.csproj", "{160D8C12-1D59-4DE4-9014-D24B6F32CBEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server-API", "Server-API\Server-API.csproj", "{D35AC06C-4A26-43A0-8A69-18CFF8071030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server-API", "Server-API\Server-API.csproj", "{D35AC06C-4A26-43A0-8A69-18CFF8071030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-MVC", "WebApplication-MVC\WebApplication-MVC.csproj", "{4851FF4B-B212-49F0-AF51-35435DD4BD81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication-MVC", "WebApplication-MVC\WebApplication-MVC.csproj", "{4851FF4B-B212-49F0-AF51-35435DD4BD81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBA5D5A9-E5EC-4143-BF38-2FE29E7B93BC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

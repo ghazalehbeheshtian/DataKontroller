@@ -7,6 +7,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddSignalR();   // Add och Registrera SignalR i ConfigureServices:
+
+
+
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -19,6 +27,16 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+//app.UseCors(x => x.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapHub<TemperatureHub>("/temperatureHub");
+//});
+
+app.MapHub<TemperatureHub>("/tempetatureHub");   //Mapp SignalR hub i Configure:
+
+
 
 app.MapControllers();
 

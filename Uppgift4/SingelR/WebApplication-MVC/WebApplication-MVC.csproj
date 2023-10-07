@@ -7,4 +7,13 @@
     <RootNamespace>WebApplication_MVC</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\js\SingalR\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.11" />
+    <PackageReference Include="test-SingalR" Version="1.0.1" />
+  </ItemGroup>
+
 </Project>
