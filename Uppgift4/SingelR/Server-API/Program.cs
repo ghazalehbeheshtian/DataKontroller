@@ -34,8 +34,12 @@ app.UseAuthorization();
 //    endpoints.MapHub<TemperatureHub>("/temperatureHub");
 //});
 
-app.MapHub<TemperatureHub>("/tempetatureHub");   //Mapp SignalR hub i Configure:
+app.MapHub<TemperatureHub>("/temperatureHub");   //Mapp SignalR hub i Configure:
 
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapHub<TemperatureHub>("/temperatureHub");
+//});
 
 
 app.MapControllers();

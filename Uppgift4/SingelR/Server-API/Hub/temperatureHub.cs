@@ -16,7 +16,7 @@ using System.Text;
 
 public class TemperatureHub : Hub
 {
-    public async Task ReceiveEncryptedTemperature(string deviceId, string encryptedTemperature)
+    public async Task SendTemperature(string deviceId, string encryptedTemperature)
     {
         var decryptedTemperature = DecryptTemperature(encryptedTemperature);
 

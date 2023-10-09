@@ -1,13 +1,16 @@
-﻿using Microsoft.AspNetCore.SignalR.Client;
+﻿using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.SignalR.Client;
 using System;
+using System.Security.Cryptography;
+using System.Text;
 using System.Threading.Tasks;
 
-class Program
-{
-    static async Task Main()
+
+
+static async Task Main()
     {
         var connection = new HubConnectionBuilder()
-            .WithUrl("https://localhost:7191/temperatureHub")
+            .WithUrl("https://localhost:7107/temperatureHub")
             //.WithUrl("/temperatureHub")
             .Build();
 
@@ -32,5 +35,9 @@ class Program
     {
         // Implementera krypteringslogik här
         return temperature.ToString(); // Denna bör ändras till riktig kryptering
-    }
+
+
+
 }
+
+
