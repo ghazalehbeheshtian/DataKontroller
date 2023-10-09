@@ -16,9 +16,12 @@ using System.Text;
 
 public class TemperatureHub : Hub
 {
+   
     public async Task SendTemperature(string deviceId, string encryptedTemperature)
     {
-        var decryptedTemperature = DecryptTemperature(encryptedTemperature);
+        //var decryptedTemperature = DecryptTemperature(encryptedTemperature);
+
+        var decryptedTemperature = encryptedTemperature;
 
         // Här kan du hantera den dekrypterade temperaturen, t.ex. lagra den i en databas, logga den, etc.
 
@@ -34,3 +37,4 @@ public class TemperatureHub : Hub
         return decryptedString;
     }
 }
+

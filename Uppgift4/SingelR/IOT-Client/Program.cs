@@ -5,13 +5,22 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+using System;
+using System.IO;
+using System.Security.Cryptography;
+using System.Text;
+using Microsoft.AspNetCore.SignalR.Client;
+using System.Threading.Tasks;
 
+class Program
+{
+    private static readonly byte[] Key = Encoding.UTF8.GetBytes("YourSuperSecretK"); // Du bör välja en säker nyckel
+    private static readonly byte[] IV = Encoding.UTF8.GetBytes("YourInitVectorHe"); // Init vektor bör vara 16 byte för AES
 
-static async Task Main()
+    static async Task Main()
     {
         var connection = new HubConnectionBuilder()
             .WithUrl("https://localhost:7107/temperatureHub")
-            //.WithUrl("/temperatureHub")
             .Build();
 
         await connection.StartAsync();
@@ -19,7 +28,7 @@ static async Task Main()
         while (true)
         {
             var temperature = GetRandomTemperature();
-            var encryptedTemperature = EncryptTemperature(temperature); // Implementera kryptering här
+            var encryptedTemperature = EncryptTemperature(temperature);
             await connection.SendAsync("SendTemperature", "Device1", encryptedTemperature);
             await Task.Delay(5000);
         }
@@ -27,17 +36,27 @@ static async Task Main()
 
     static double GetRandomTemperature()
     {
-        // Generera ett slumpmässigt temperaturvärde
         return new Random().NextDouble() * 40.0;
     }
 
     static string EncryptTemperature(double temperature)
     {
-        // Implementera krypteringslogik här
-        return temperature.ToString(); // Denna bör ändras till riktig kryptering
+        using (var aes = Aes.Create())
+        {
+            aes.Key = Key;
+            aes.IV = IV;
 
+            var encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
 
-
+            using (var msEncrypt = new MemoryStream())
+            {
+                using (var csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                using (var swEncrypt = new StreamWriter(csEncrypt))
+                {
+                    swEncrypt.Write(temperature.ToString());
+                }
+                return Convert.ToBase64String(msEncrypt.ToArray());
+            }
+        }
+    }
 }
-
-

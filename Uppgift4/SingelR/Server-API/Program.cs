@@ -10,7 +10,17 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSignalR();   // Add och Registrera SignalR i ConfigureServices:
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "OpenArms",
+                      policy =>
+                      {
+                          policy.WithOrigins(/*"http://localhost",*/ "https://localhost:7122")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials();
+                      });
+});
 
 
 
@@ -25,6 +35,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("OpenArms");
 
 app.UseAuthorization();
 
