@@ -66,5 +66,30 @@ class Program
                 return Convert.ToBase64String(msEncrypt.ToArray());
             }
         }
+
+
+
+
+        //static string DecryptTemperature(string encryptedTemp)
+        //{
+        //    using (Aes aes = Aes.Create())
+        //    {
+        //        aes.Key = Key;
+        //        aes.IV = IV;
+
+        //        ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
+
+        //        using (MemoryStream memoryStream = new MemoryStream(Convert.FromBase64String(encryptedTemp)))
+        //        {
+        //            using (CryptoStream cryptoStream = new CryptoStream(memoryStream, decryptor, CryptoStreamMode.Read))
+        //            {
+        //                using (StreamReader streamReader = new StreamReader(cryptoStream))
+        //                {
+        //                    return streamReader.ReadToEnd();
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
     }
 }

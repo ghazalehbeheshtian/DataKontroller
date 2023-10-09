@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wkoh38apW0YybecJ/yzBaqL6KFtDEsKoQaQj4hPWTNSXWG3tjyUNztfCFp5RRPi4Tu38YNbtKFEkR/h246w9Sw==",
+  "dgSpecHash": "JT5v2uo3CEbKLZ6LynjblnywXRBDcxrf5TWVS4ykg57JhuFVezyELxcFzmkLK9hXW9/NEHAHUHqcxtET1W96dQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\Server-API\\Server-API.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,12 @@
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\7.0.11\\microsoft.aspnetcore.signalr.client.core.7.0.11.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\7.0.11\\microsoft.aspnetcore.signalr.common.7.0.11.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\7.0.11\\microsoft.aspnetcore.signalr.protocols.json.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.features\\7.0.11\\microsoft.extensions.features.7.0.11.nupkg.sha512",
