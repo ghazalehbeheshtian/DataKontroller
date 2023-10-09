@@ -37,7 +37,8 @@ class Program
             var jsonToSend = JsonConvert.SerializeObject(dto);
 
 
-            await connection.SendAsync("SendTemperature", "Device1", jsonToSend);
+            await connection.SendAsync("Device1", jsonToSend);
+            await connection.SendAsync("Device2", jsonToSend);
             await Task.Delay(5000);
         }
     }

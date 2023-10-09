@@ -36,3 +36,16 @@ function DecryptTemperature(encryptedTemperature) {
     return encryptedTemperature; // Denna bör ändras till riktig dekryptering
 }
 
+
+
+connection.on("Device1", function (message) {
+    var li = document.createElement("li");
+    document.getElementById("messagesList").appendChild(li);
+    li.textContent = `Device 1 - says ${message}`;
+});
+
+connection.on("Device2", function (message) {
+    var li = document.createElement("li");
+    document.getElementById("messagesList").appendChild(li);
+    li.textContent = `Device 2 - says ${message}`;
+});

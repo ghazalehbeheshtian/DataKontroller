@@ -23,6 +23,10 @@ using System.Text.Json.Serialization;
 public class TemperatureHub : Hub
 {
 
+   
+
+
+
     public async Task SendTemperature(string deviceId, string dto)
     {
 
@@ -47,6 +51,11 @@ public class TemperatureHub : Hub
 
     private string DecryptTemperature(string encryptedTemp)
     {
+
+
+
+
+
         byte[] Key = Encoding.UTF8.GetBytes("YourSuperSecretK"); // Du bör välja en säker nyckel
         byte[] IV = Encoding.UTF8.GetBytes("YourInitVectorHe"); // Init vektor bör vara 16 byte för AES
 
@@ -71,6 +80,23 @@ public class TemperatureHub : Hub
                 }
             }
         }
+    }
+
+
+    public async Task Device1(string dto)
+    {
+
+        var messageRecieved = JsonConvert.DeserializeObject<DTO>(dto);
+        var decryptedTemperature = DecryptTemperature(messageRecieved.Temperature);
+        await Clients.All.SendAsync("Device1", decryptedTemperature);
+    }
+
+    public async Task Device2(string dto)
+    {
+
+        var messageRecieved = JsonConvert.DeserializeObject<DTO>(dto);
+        var decryptedTemperature = DecryptTemperature(messageRecieved.Temperature);
+        await Clients.All.SendAsync("Device2", decryptedTemperature);
     }
 
 
