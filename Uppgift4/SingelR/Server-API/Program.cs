@@ -10,7 +10,17 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSignalR();   // Add och Registrera SignalR i ConfigureServices:
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "OpenArms",
+                      policy =>
+                      {
+                          policy.WithOrigins(/*"http://localhost",*/ "https://localhost:7122")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials();
+                      });
+});
 
 
 
@@ -26,15 +36,18 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+//app.UseCors(x => x.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+
+app.UseCors("OpenArms");
+
 app.UseAuthorization();
 
-//app.UseCors(x => x.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 //app.UseEndpoints(endpoints =>
 //{
 //    endpoints.MapHub<TemperatureHub>("/temperatureHub");
 //});
 
-app.MapHub<TemperatureHub>("/tempetatureHub");   //Mapp SignalR hub i Configure:
+app.MapHub<TemperatureHub>("/temperatureHub");   //Mapp SignalR hub i Configure:
 
 
 

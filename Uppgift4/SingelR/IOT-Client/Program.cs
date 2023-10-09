@@ -7,7 +7,8 @@ class Program
     static async Task Main()
     {
         var connection = new HubConnectionBuilder()
-            .WithUrl("https://localhost:7191/temperatureHub")
+            //.WithUrl("https://localhost:7191/temperatureHub")
+            .WithUrl("https://localhost:7107/temperatureHub")
             //.WithUrl("/temperatureHub")
             .Build();
 

@@ -16,14 +16,28 @@ using System.Text;
 
 public class TemperatureHub : Hub
 {
-    public async Task ReceiveEncryptedTemperature(string deviceId, string encryptedTemperature)
+    //public async Task ReceiveEncryptedTemperature(string deviceId, string encryptedTemperature)
+    //{
+    //    var decryptedTemperature = DecryptTemperature(encryptedTemperature);
+
+    //    // Här kan du hantera den dekrypterade temperaturen, t.ex. lagra den i en databas, logga den, etc.
+
+    //    await Clients.All.SendAsync("UpdateTemperature", deviceId, decryptedTemperature);
+    //}
+
+
+    public async Task SendTemperature(string deviceId, string encryptedTemperature)
     {
-        var decryptedTemperature = DecryptTemperature(encryptedTemperature);
+        //var decryptedTemperature = DecryptTemperature(encryptedTemperature);
+
+        var decryptedTemperature = encryptedTemperature;
 
         // Här kan du hantera den dekrypterade temperaturen, t.ex. lagra den i en databas, logga den, etc.
 
         await Clients.All.SendAsync("UpdateTemperature", deviceId, decryptedTemperature);
     }
+
+
 
     private string DecryptTemperature(string encryptedTemp)
     {

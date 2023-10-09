@@ -4,10 +4,11 @@
 
 
     const connection = new signalR.HubConnectionBuilder()
-        .withUrl("/temperatureHub")
+        .withUrl("https://localhost:7107/temperatureHub")
+        .withAutomaticReconnect()
         .build();
 
-    connection.on("ReceiveTemperature", function (deviceId, encryptedTemperature) {
+    connection.on("UpdateTemperature", function (deviceId, encryptedTemperature) {
         const temperature = DecryptTemperature(encryptedTemperature); // Implementera dekrypteringslogik här
         console.log(`${deviceId}: ${temperature}°C`);
 
@@ -16,8 +17,7 @@
 
     });
 
-    connection.start();
-     .catch (function(err) {
+    connection.start().catch (function(err) {
     // visa felmeddelandet om anslutningen misslyckas
     document.getElementById("connectionError").style.display = "block";
     });

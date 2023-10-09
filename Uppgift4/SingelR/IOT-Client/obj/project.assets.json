@@ -820,19 +820,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\": {}
+    "C:\\Users\\DavidNokto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\IOT-Client\\IOT-Client.csproj",
+      "projectUniqueName": "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\IOT-Client\\IOT-Client.csproj",
       "projectName": "IOT-Client",
-      "projectPath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\IOT-Client\\IOT-Client.csproj",
-      "packagesPath": "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\IOT-Client\\obj\\",
+      "projectPath": "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\IOT-Client\\IOT-Client.csproj",
+      "packagesPath": "C:\\Users\\DavidNokto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\IOT-Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ghazeleh Beheshtian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DavidNokto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

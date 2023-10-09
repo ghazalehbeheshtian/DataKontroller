@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj": {}
+    "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj": {
+    "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj",
+        "projectUniqueName": "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj",
         "projectName": "WebApplication-MVC",
-        "projectPath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj",
-        "packagesPath": "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\WebApplication-MVC\\obj\\",
+        "projectPath": "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\WebApplication-MVC\\WebApplication-MVC.csproj",
+        "packagesPath": "C:\\Users\\DavidNokto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DavidNokto\\Source\\Repos\\DataKontroller\\Uppgift4\\SingelR\\WebApplication-MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ghazeleh Beheshtian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DavidNokto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
