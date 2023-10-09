@@ -11,6 +11,8 @@ using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.SignalR.Client;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using IOT_Client;
 
 class Program
 {
@@ -29,7 +31,13 @@ class Program
         {
             var temperature = GetRandomTemperature();
             var encryptedTemperature = EncryptTemperature(temperature);
-            await connection.SendAsync("SendTemperature", "Device1", encryptedTemperature);
+
+            var dto = new DTO { Temperature = encryptedTemperature, TimeStamp = DateTime.Now };
+
+            var jsonToSend = JsonConvert.SerializeObject(dto);
+
+
+            await connection.SendAsync("SendTemperature", "Device1", jsonToSend);
             await Task.Delay(5000);
         }
     }

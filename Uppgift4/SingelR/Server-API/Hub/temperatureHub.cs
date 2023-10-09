@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.SignalR;
+using Newtonsoft.Json;
+using Server_API;
 using System.Text;
+using System.Text.Json.Serialization;
 
 
 
@@ -17,11 +20,13 @@ using System.Text;
 public class TemperatureHub : Hub
 {
    
-    public async Task SendTemperature(string deviceId, string encryptedTemperature)
+    public async Task SendTemperature(string deviceId, string dto)
     {
+
+        var messageRecieved = JsonConvert.DeserializeObject<DTO>(dto);
         //var decryptedTemperature = DecryptTemperature(encryptedTemperature);
 
-        var decryptedTemperature = encryptedTemperature;
+        var decryptedTemperature = messageRecieved.Temperature;
 
         // Här kan du hantera den dekrypterade temperaturen, t.ex. lagra den i en databas, logga den, etc.
 
