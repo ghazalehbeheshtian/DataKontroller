@@ -245,6 +245,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "NetEscapades.AspNetCore.SecurityHeaders/0.21.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -692,6 +708,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NetEscapades.AspNetCore.SecurityHeaders/0.21.0": {
+      "sha512": "Y0qnwxwZeTrni7G2yt8aDdM6RZ2dAjvvALgdLCNCd+lpBIGgi7qf/3I+0nj7MHwwCDg6fL1e2OAGAE4CtV2pKg==",
+      "type": "package",
+      "path": "netescapades.aspnetcore.securityheaders/0.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/net461/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "lib/net472/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/net472/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "lib/netstandard2.0/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/netstandard2.0/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "netescapades.aspnetcore.securityheaders.0.21.0.nupkg.sha512",
+        "netescapades.aspnetcore.securityheaders.nuspec"
+      ]
+    },
     "System.IO.Pipelines/7.0.0": {
       "sha512": "jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
       "type": "package",
@@ -815,6 +850,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.SignalR.Client >= 7.0.11",
+      "NetEscapades.AspNetCore.SecurityHeaders >= 0.21.0",
       "test-SingalR >= 1.0.1"
     ]
   },
@@ -860,6 +896,10 @@
           "Microsoft.AspNetCore.SignalR.Client": {
             "target": "Package",
             "version": "[7.0.11, )"
+          },
+          "NetEscapades.AspNetCore.SecurityHeaders": {
+            "target": "Package",
+            "version": "[0.21.0, )"
           },
           "test-SingalR": {
             "target": "Package",

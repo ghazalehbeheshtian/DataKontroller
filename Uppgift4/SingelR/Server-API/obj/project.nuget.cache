@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JT5v2uo3CEbKLZ6LynjblnywXRBDcxrf5TWVS4ykg57JhuFVezyELxcFzmkLK9hXW9/NEHAHUHqcxtET1W96dQ==",
+  "dgSpecHash": "HucBt8YzKufXHr0/6+QothrbQkl20ENZq5OrlMrBJHj102lfmpFo4933vxsaj4PpsbMBplB7PrxfBfTBfzFChA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ghazeleh Beheshtian\\Desktop\\Data\\Uppgift4\\SingelR\\Server-API\\Server-API.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\netescapades.aspnetcore.securityheaders\\0.21.0\\netescapades.aspnetcore.securityheaders.0.21.0.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Ghazeleh Beheshtian\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

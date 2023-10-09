@@ -375,6 +375,22 @@
           }
         }
       },
+      "NetEscapades.AspNetCore.SecurityHeaders/0.21.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -1255,6 +1271,25 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "NetEscapades.AspNetCore.SecurityHeaders/0.21.0": {
+      "sha512": "Y0qnwxwZeTrni7G2yt8aDdM6RZ2dAjvvALgdLCNCd+lpBIGgi7qf/3I+0nj7MHwwCDg6fL1e2OAGAE4CtV2pKg==",
+      "type": "package",
+      "path": "netescapades.aspnetcore.securityheaders/0.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/net461/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "lib/net472/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/net472/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/netcoreapp3.0/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "lib/netstandard2.0/NetEscapades.AspNetCore.SecurityHeaders.dll",
+        "lib/netstandard2.0/NetEscapades.AspNetCore.SecurityHeaders.xml",
+        "netescapades.aspnetcore.securityheaders.0.21.0.nupkg.sha512",
+        "netescapades.aspnetcore.securityheaders.nuspec"
+      ]
+    },
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -1500,6 +1535,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.11",
       "Microsoft.AspNetCore.SignalR.Client >= 7.0.11",
       "Microsoft.EntityFrameworkCore >= 7.0.11",
+      "NetEscapades.AspNetCore.SecurityHeaders >= 0.21.0",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "test-SingalR >= 1.0.1"
@@ -1555,6 +1591,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.11, )"
+          },
+          "NetEscapades.AspNetCore.SecurityHeaders": {
+            "target": "Package",
+            "version": "[0.21.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
