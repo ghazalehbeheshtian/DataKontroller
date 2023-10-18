@@ -1,0 +1,45 @@
+Här är en C4-modell som beskriver de tre olika komponenterna och deras interaktioner:
+
+
+System: Temperaturövervakningssystem
+Underavdelningar:
+
+-Serverapplikation (ASP.NET med SignalR)
+-Konsolapplikation (Simulerad enhet)
+-Webbapplikation (Temperaturövervakningsgränssnitt)
+
+
+----------------- Serverapplikation (ASP.NET med SignalR):
+
+Beskrivning: En serverdel som använder ASP.NET och SignalR för att hantera temperaturdata och notifiera enheter om nya temperaturinformation.
+Funktioner:
+Tar emot temperaturdata från olika enheter.
+Hanterar kryptering och dekryptering av temperaturdata.
+Använder SignalR för att skicka notifikationer till enheter om nya temperaturuppdateringar.
+
+
+
+-------------------Konsolapplikation (Simulerad enhet):
+
+Beskrivning: En konsolapplikation som simulerar en enhet och rapporterar temperaturdata till serverapplikationen.
+Funktioner:
+Genererar temperaturvärden i ett lämpligt tidsintervall (t.ex., varje 5 sekunder).
+Skickar temperaturdata till serverapplikationen antingen via SignalRs .NET SDK eller via HTTP.
+
+
+
+
+-------------------- Webbapplikation (Temperaturövervakningsgränssnitt):
+
+Beskrivning: En webbapplikation som prenumererar på temperaturdata från olika enheter via SignalR och visar aktuell temperaturinformation.
+Funktioner:
+Ansluter sig till serverapplikationen via SignalR för att ta emot temperaturuppdateringar.
+Presenterar temperaturdata från olika enheter i ett användarvänligt gränssnitt.
+
+Kommunikation och Kryptering
+Beskrivning: Kommunikation och kryptering av temperaturdata mellan enheter och serverapplikationen.
+Detaljer:
+IoT-enheter krypterar temperaturdata innan de skickar den till serverapplikationen.
+Serverapplikationen ansvarar för att dekryptera temperaturdata.
+Kommunikationen mellan enheter och server är säker genom användning av kryptering.
+Temperaturdata som skickas till webbapplikationen behöver inte vara krypterat, eftersom kravet om kryptering är redan uppfyllt i kommunikationen mellan enhet och server.
